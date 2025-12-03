@@ -4,7 +4,6 @@ import { getProperties } from "@/lib/api/property";
 
 export default async function HomePage() {
   const properties = await getProperties();
-  console.log(properties)
 
   return (
     <>
